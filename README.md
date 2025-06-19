@@ -1,2 +1,5 @@
 # bookie
-Bookie is a web application that aims to provide personalized book recommendations. 
+Bookie is a web application that aims to provide personalized book recommendations. The platform is designed to make users discover books – not just the top-liked books but rather niche and specific books. Users can either select their favorite genres or build a profile through saved books, enabling personalized recommendations. These recommendations include short descriptions, book covers, user reviews, and diagrams showing the distribution of sub-genres for each book. Additional features support the user experience by including book details for a comprehensive overview of the book. Translation options for more inclusiveness and highlighting the language-technological aspect of the web application. Playlist recommendations related to the book’s themes, for the user to enjoy while reading the recommended book. A library to save and organize books for future reference. But also, to get recommendations based on saved books. And finally, an about page for insights into the platform’s purpose and its development team.
+We wanted to do something practical and personally valuable, improving upon similar platforms like Goodreads by adding unique, personalized features.
+
+In collaboration with Merilin Sousa Silva and Shubhi Pareek

@@ -1,0 +1,24 @@
+/* not fixed yet */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E1E1E1;
+    font-family: 'Poppins', sans-serif;
+    color: #3B4230;
+}
+
+/* all headings */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Rethink Sans', sans-serif;
+}
+
+/* Header and Footer */
+header, footer {
+    background-color: #475039;
+    color: white;
+    padding: 10px 20px;
+}

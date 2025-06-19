@@ -1,0 +1,167 @@
+/* Typography */
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #E1E1E1;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: "Rethink Sans", sans-serif;
+    color: #3B4230;
+}
+
+/* Header */
+header {
+    background-color: #475039;
+    color: #E1E1E1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav li {
+    padding: 10px;
+}
+
+nav a {
+    color: #E1E1E1;
+    text-decoration: none; /* Prevent underline */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a img {
+    margin-bottom: 5px;
+}
+
+/* Book Details Section */
+.book-details {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-details h1 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.book-details-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.book-cover {
+    text-align: center; /* Center-align content in the book cover */
+}
+
+.rating {
+    margin-top: 10px; /* Space between book cover and stars */
+    display: flex;
+    justify-content: center;
+    gap: 5px; /* Space between stars */
+}
+
+.rating .star {
+    width: 20px; /* Smaller star size */
+}
+
+.reviews-link {
+    display: block; /* Place link on a new line */
+    margin-top: 5px; /* Space between stars and link */
+    font-size: 0.9rem; /* Slightly smaller text */
+    color: #006633;
+    text-decoration: none;
+}
+
+.book-info {
+    flex: 1;
+}
+
+.book-info p {
+    line-height: 1.6; /* Improved readability */
+    margin-bottom: 10px;
+}
+
+.translate-link {
+    color: #006633;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.add-to-library img {
+    display: flex;
+    align-items: center;
+}
+
+
+.reviews-link {
+    color: #006633;
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-left: 15px; /* Adjust spacing */
+}
+
+/* Playlist */
+.playlist {
+    margin: 20px 0 30px;
+}
+
+.playlist-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.playlist-info a {
+    color: #006633;
+    text-decoration: none;
+}
+
+.playlist-info img {
+    width: 40px; /* Ensure YouTube icon is appropriately sized */
+}
+
+/* Genre Chart */
+.genre-chart {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.genre-chart img {
+    width: 80%; /* Scales for smaller screens */
+    max-width: 300px;
+    margin: 0 auto;
+    display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .book-details-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .book-cover img {
+        width: 80%; /* Scale down for smaller screens */
+    }
+
+    .genre-chart img {
+        width: 100%; /* Full width on small devices */
+    }
+}

@@ -1,0 +1,65 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: Poppins, sans-serif;
+    background-color: #E1E1E1;
+}
+
+header {
+    background-color: #475039;
+    color: #E1E1E1;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-family: Rethink Sans, sans-serif;
+    color: #3B4230;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin-right: 20px;
+    padding: 10px;
+}
+
+nav a {
+    color: #E1E1E1;
+    /* because else it underlines */
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav a img {
+    margin-bottom: 5px;
+}
+
+.recommendations {
+    padding: 20px;
+}
+
+.book-recommendation {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.genre-chart {
+    width: 200px;
+    height: 200px;
+}
